@@ -1,7 +1,17 @@
 .App {
     height: 100%;
 
+    .navbar{
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        height: 80px;
+    }
+
     .App__main-page-content {
+        position: relative;
+        top: 80px;
         height: calc(100% - 80px);
     }
 }
