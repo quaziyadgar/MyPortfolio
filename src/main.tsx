@@ -8,7 +8,7 @@ import "./index.scss";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="my_portfolio/">
       <App />
     </BrowserRouter>
   </StrictMode>
