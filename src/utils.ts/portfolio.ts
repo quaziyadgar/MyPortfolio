@@ -4,6 +4,7 @@ import Weather from "../assets/portfolioImages/weather-forcast.jpg";
 import TicTacToe from "../assets/portfolioImages/tic-tac-toe.jpg";
 import Timer from "../assets/portfolioImages/timer.jpg";
 import Workout from "../assets/portfolioImages/workout.jpg";
+import Telecom from "../assets/portfolioImages/telecom.png"
 
 export const portfolioData = [
   {
@@ -17,6 +18,12 @@ export const portfolioData = [
     name: "College Alumni",
     image: Alumni,
     link: "https://mmmutalumni-d4d4e.web.app/",
+  },
+  {
+    id: 3,
+    name: "Telecom",
+    image: Telecom,
+    link: "https://quaziyadgar.github.io/bsnlCustomisePage/",
   },
   {
     id: 2,

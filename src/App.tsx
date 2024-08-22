@@ -25,6 +25,12 @@ function App() {
     });
   }, []);
 
+  useEffect(()=>{
+    let path = location.pathname.replace(new RegExp("/", "g"), "");
+    if(path === "") path = "Yadgar's Portfolio";
+    document.title = path.toUpperCase();
+  },[location.pathname])
+
   return (
     <div className="App">
       {/* particles ts */}
